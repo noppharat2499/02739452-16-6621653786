@@ -1,0 +1,6 @@
+# Extra packages for the Airflow image (pandas, requests and psycopg2 already ship with it,
+# they are listed so the dependencies are explicit). The dashboard has its own web/requirements.txt.
+requests
+beautifulsoup4
+pandas
+psycopg2-binary
